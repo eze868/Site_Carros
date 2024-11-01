@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>FP Sellection</title>
+  </head>
+  <body>
+    <header>
+      <img src="./img/logo.png" alt="logo" />
+      <nav>
+        <ul>
+          <a href="#">
+            <li>Home</li>
+          </a>
+          <li>Carros</li>
+          <li>Fale Conosco</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container">
+      <div class="list">
+        <div class="item active">
+          <div class="car-img">
+            <img src="./img/2.png" alt="car image" />
+          </div>
+          <div class="content">
+            <h3 class="car-information">Conversivel</h3>
+            <h2>Ferrari</h2>
+            <p class="description">
+              Ferrari é uma fabricante italiana de carros esportivos de luxo com
+              sede em Maranello. Fundada por Enzo Ferrari em 1939 na divisão de
+              corridas da Alfa Romeo.
+            </p>
+            <button class="information">Saiba Mais</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="car-img">
+            <img src="./img/1.png" alt="car image" />
+          </div>
+          <div class="content">
+            <h3 class="car-information">Único Dono</h3>
+            <h2>911 Turbo</h2>
+            <p class="description">
+              Nossos engenheiros gostam de se referir a ele como o carro
+              esportivo mais perfeito de todos. Extremamente esportivo e, ao
+              mesmo tempo, confortável.
+            </p>
+            <button class="information">Saiba Mais</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="car-img">
+            <img src="./img/3.png" alt="car image" />
+          </div>
+          <div class="content">
+            <h3 class="car-information">2015</h3>
+            <h2>Aventador</h2>
+            <p class="description">
+              Projetado para impulsionar além do desempenho o pensamento
+              revolucionário está no centro de cada ideia da Lamborghini. O
+              motor V12 naturalmente aspirado...
+            </p>
+            <button class="information">Saiba Mais</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <button id="prev">
+          <img class="imagem1" src="./img/arrow.png" alt="Seta-esquerda" />
+        </button>
+        <button id="next">
+          <img src="./img/arrow.png" alt="Seta-direita" />
+        </button>
+      </div>
+
+      <div class="indicators">
+        <div class="numbers">01</div>
+        <ul>
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+    <script src="scripts.js"></script>
+  </body>
+</html>
